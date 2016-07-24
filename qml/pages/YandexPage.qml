@@ -55,11 +55,11 @@ Page {
                 if (recorder.recording) {
                     rec_btn.text = "START RECORDING"
                     console.log('STOP RECORDING');
-                    recorder.stop("watson");
+                    recorder.stop("yandex");
                 } else {
                     console.log('START RECORDING');
                     rec_btn.text = "RECORDING... PRESS TO STOP"
-                    recorder.record("watson");
+                    recorder.record("yandex");
                 }
             }
         }

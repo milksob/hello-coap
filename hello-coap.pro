@@ -29,6 +29,7 @@ OTHER_FILES += qml/hello-coap.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
     qml/pages/ThirdPage.qml \
+    qml/pages/YandexPage.qml \
     rpm/hello-coap.changes.in \
     rpm/hello-coap.spec \
     rpm/hello-coap.yaml \
@@ -48,3 +49,6 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 # TRANSLATIONS += translations/hello-coap-de.ts
 
 include(src/coap/coap.pri)
+
+DISTFILES += \
+    qml/pages/YandexPage.qml

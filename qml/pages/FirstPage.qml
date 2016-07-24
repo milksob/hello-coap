@@ -61,6 +61,11 @@ Page
                 text: "Voice Input"
                 onClicked: pageStack.push(Qt.resolvedUrl("ThirdPage.qml")); // fuck!
             }
+            MenuItem
+            {
+                text: "Yandex voice Input"
+                onClicked: pageStack.push(Qt.resolvedUrl("YandexPage.qml"));
+            }
         }
 
         anchors.fill: parent
